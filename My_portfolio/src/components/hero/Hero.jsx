@@ -15,6 +15,8 @@ const Hero = () => {
   viewport={{once: false, amount: 0.25}}
  className={`innerWidth ${css.container}`}>
 
+    
+
           {/* upper elemts */}
 
     <div className={css.upperElements}>

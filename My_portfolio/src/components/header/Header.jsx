@@ -11,8 +11,14 @@ const Header = () => {
     
     const [ menuOpened , setMenuOpened ] = useState(false);
     const headerShadow = useHeaderShadow();
+    const menuRef = useRef()
 
-
+useOutsideAlerter(
+    {
+        menuRef,
+        setMenuOpened
+    }
+)
  
 
   return (
@@ -21,7 +27,7 @@ const Header = () => {
    whileInView="show"
    variants={headerVariants}
  viewport={{once: false, amount: 0.25}}
-    className={` paddings ${css.wrapper}`}
+    className={`bg-primary paddings ${css.wrapper}`}
 style={{boxShadow: headerShadow}}
     >
     <div className={`flexCenter innerWidth ${css.container}`}>
@@ -29,12 +35,14 @@ style={{boxShadow: headerShadow}}
             Abhijith
         </div>
 
-        <ul style={getMenuStyles(menuOpened)} className={`flexCenter ${css.menu}`}>
-            <li><a href="">Services</a></li>
-            <li><a href="">Experience</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Testimonials</a></li>
-            <li><a href="">Contact</a></li>
+        <ul
+        ref={menuRef}
+         style={getMenuStyles(menuOpened)} className={`flexCenter ${css.menu}`}>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#work">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 {/* 
 only for medium and small screen nav button for mobile */}

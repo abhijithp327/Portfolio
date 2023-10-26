@@ -11,56 +11,51 @@ import Slider from "react-slick";
 const Education = () => {
     return (
         <motion.section
-            initial="hidden"
-            whileInView="show"
-            variants={staggerChildren}
-            viewport={{ once: false, amount: 0.25 }}
-
-            className={`paddings ${css.wrapper}`}>
-
-<a className='anchor' id='education'></a>
-
-
-            <motion.div
-            variants={footerVariants}
-             className={`yPaddings innerWidth ${css.container}`}>
-               <div className={`flexCenter ${css.heading}`}>
-                <span className='primaryText'>My Education Details</span>
-                <p style={{marginTop:'2rem'}}>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-                <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-               </div>
-
-
-            {/* carousal */}
-
-            <div className={`yPaddings ${css.comments}`}>
-                <Slider className={css.slider}
-                {...sliderSettings}
-                >
-                   {
-                    comments.map((com,index) => {
-                        return (
-                            <div className={`flexCenter ${css.comment}`}>
-                                <img src={com.img} alt="all" />
-                                <p>{com.comment}</p>
-
-                                <div className={css.line}></div>
-
-                                <div className={css.bio}>
-                                    <span>{com.name}</span>
-                                    <span>{com.post}</span>
-                                </div>
-                            </div>
-                        )
-                    })
-                   }
-                    
-                </Slider>
+        variants={staggerChildren}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        section className={`paddings ${css.wrapper}`}>
+    
+          <a className="anchor" id="education"></a>
+    
+          <motion.div
+          variants={footerVariants}
+          className={`yPaddings innerWidth ${css.container}`}>
+    
+    
+            <div className={`flexCenter ${css.heading}`}>
+              <span className="primaryText">People talk about us</span>
+              <p style={{ marginTop: "2rem" }}>
+                I got a job that was in accordance with the salary and field of work
+              </p>
+              <p>The process of submitting an appilication was quite cosy</p>
             </div>
-
-            </motion.div>
-
-
+    
+    
+    
+            <div className={`yPaddings ${css.comments}`}>
+              {/* to use slider , we have to inlcude css in index.html head */}
+              <Slider {...sliderSettings} className={css.slider}>
+                {comments.map((comment, i) => {
+                  return (
+                    <div className={`flexCenter ${css.comment}`}>
+                      <img src={comment.img} alt="" />
+                      <p>{comment.comment}</p>
+                      <div className={css.line}></div>
+                      <div className={css.bio}>
+                        <span>{comment.name}</span>
+                        <span>{comment.post}</span>
+                      </div>
+                    </div>
+                  );
+                })}
+              </Slider>
+            </div>
+    
+    
+          </motion.div>
+    
         </motion.section>
     )
 }

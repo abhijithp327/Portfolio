@@ -6,36 +6,30 @@ import { motion } from 'framer-motion';
 const Portfolio = () => {
   return (
     <motion.section
-      initial="hidden"
-      whileInView="show"
-      variants={staggerChildren}
-      viewport={{ once: false, amount: 0.25 }}
-      className={`paddings ${css.wrapper}`}>
+    variants={staggerChildren}
+    initial="hidden"
+    whileInView="show"
+    viewport={{ once: false, amount: 0.25 }}
+    className={`paddings ${css.wrapper}`}>
 
-
-      <a className='anchor' id='projects'></a>
-
+      <a className="anchor" id="portfolio"></a>
 
       <div className={`innerWidth flexCenter ${css.container}`}>
 
 
-        <motion.div
-        variants={textVariant(.4)}
-         className={`flexCenter ${css.heading}`}>
+        <motion.div variants={textVariant(.4)} className={`flexCenter ${css.heading}`}>
           <div>
-            <span className='primaryText'>My Latest Projects</span>
-            <p style={{ marginTop: "10px" }}>Perfect solution for digital experience</p>
+            <span className="primaryText">My Latest Projects</span>
+            <p style={{marginTop: "10px"}}>Perfect solution for digital experience</p>
           </div>
-
           <span className="secondaryText">Explore More Works</span>
         </motion.div>
 
-        {/* images projects */}
 
         <div className={`flexCenter ${css.showCase}`}>
-          <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./showCase1.png" alt="project" />
-          <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./showCase2.png" alt="project" />
-          <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./showCase3.png" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./showCase1.png" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./showCase2.png" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./showCase3.png" alt="project" />
         </div>
       </div>
     </motion.section>

@@ -1,24 +1,28 @@
 @import '../../styles/contants.scss';
 
-.wrapper{
+.wrapper {
     background: white;
-    .container{
+
+    .container {
         gap: 2rem;
+
         @media (max-width: $sm) {
             flex-direction: column;
             gap: 2rem;
             align-items: flex-start;
         }
-        .left{
+
+        .left {
             flex: 3;
-            >*{
+
+            >* {
                 display: block;
             }
-            >:nth-child(2)
-            {
+
+            >:nth-child(2) {
                 margin-top: 3rem;
 
-                a{
+                a {
                     text-decoration: underline;
                     color: orange;
                 }
@@ -26,30 +30,49 @@
         }
 
 
-        .right{
+        .right {
             flex: 1;
-            .info{
+
+            .info {
                 margin-bottom: 1rem;
-                >*{
+
+                >* {
                     display: block;
                 }
             }
-            .menu{
+
+            .menu {
                 @media (max-width: $sm) {
                     flex-direction: row;
                     flex-wrap: wrap;
+                    
                 }
+
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 gap: 2rem;
                 list-style: none;
-                li{
+
+                li {
                     cursor: pointer;
-                    &:hover{
+                    
+
+                    &:hover {
                         color: $secondary
                     }
                 }
             }
         }
+    }
+
+    .copy {
+        @media (max-width: $sm){
+            width: 100%;
+            margin: auto 2rem;
+        }
+
+
+        width: 100%;
+        margin: -7px 0 0 44rem;
     }
 }

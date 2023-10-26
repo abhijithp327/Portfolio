@@ -10,17 +10,20 @@ import Hero from "./components/hero/hero";
 
 const App = () => {
 
-  return <div className={`bg-primary ${css.container}`}>
-   <Header/>
- <Hero/>
-   <Experties/>
-   <Works/>
-   <Portfolio/>
-   <Education/>
-   <Footer/>
- </div>
+  return (
+    <div className={`bg-primary ${css.container}`}>
+      <Header />
+      <Hero />
+      <Experties />
+      <Works />
+      <Portfolio />
+      <Education />
+      <Footer />
+    </div>
+  )
 
-  
+
+
 };
 
 export default App;

@@ -38,10 +38,10 @@ const Footer = () => {
             <p>Let's talk share your excitement with me </p>
           </div>
           <ul className={css.menu}>
-            <li> <a href="https://github.com/abhijithp327"> <BsGithub  size='3rem' color='orange'/></a> </li>
-            <li><a href="https://www.instagram.com/abhijithp1221/?next=%2F&hl=en"><BsInstagram  size='3rem' color='orange'/></a></li>
-            <li><a href="https://www.linkedin.com/in/abhijithp327/"><BsLinkedin  size='3rem' color='orange'/></a></li>
-            <li><a href="mailto:abhijithp@gmail.com"><SiGmail size='3rem' color='orange'/></a></li>
+            <li> <a  href="https://github.com/abhijithp327"> <BsGithub   size='2.3rem' color='orange'/></a> </li>
+            <li><a  href="https://www.instagram.com/abhijithp1221/?next=%2F&hl=en"><BsInstagram  size='2.3rem' color='orange'/></a></li>
+            <li><a  href="https://www.linkedin.com/in/abhijithp327/"><BsLinkedin  size='2.3rem' color='orange'/></a></li>
+            <li><a  href="mailto:abhijithp@gmail.com"><SiGmail size='2.3rem' color='orange'/></a></li>
           </ul>
          
           

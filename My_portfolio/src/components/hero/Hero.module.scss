@@ -95,5 +95,20 @@
               
         }
     }
+
+    .email2 {
+        @media (max-width: $sm ) {
+            display: flex;
+            justify-content: center;
+            padding: 22px;
+            text-decoration: none;
+            color: orange;
+            
+            
+        }
+
+
+        display: none;
+    }
     
 }

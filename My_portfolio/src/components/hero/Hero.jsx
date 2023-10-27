@@ -62,6 +62,12 @@ const Hero = () => {
         </motion.div>
       </div>
     </motion.div>
+
+    <motion.a
+        variants={fadeIn("right", "tween", 0.5, 1)}
+       href={Resume} download className={css.email2} >
+                    <button className='button' >Download Cv</button>
+                </motion.a>
   </section>
   )
 }

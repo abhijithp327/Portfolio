@@ -25,11 +25,15 @@ const Education = () => {
     
     
             <div className={`flexCenter ${css.heading}`}>
-              <span className="primaryText">People talk about us</span>
+              <span className="primaryText">My Educations Details</span>
               <p style={{ marginTop: "2rem" }}>
-                I got a job that was in accordance with the salary and field of work
+              I have completed my graduation in Bsc Computer Science from Mahatma Gandhi University in 2022 With 7.5 CGPA.
+              
+              After my graduation I joined  a course where I build my knowledge and skill set in ME(A)RN Stack.
+              
+              After my Internship I joined in GooFree Lab Technologies.Pvt.Ltd as a Junior Fullstack Developer
               </p>
-              <p>The process of submitting an appilication was quite cosy</p>
+             
             </div>
     
     

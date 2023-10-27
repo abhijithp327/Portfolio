@@ -4,117 +4,83 @@ import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Website Design",
-    projects: 76,
+    projects: 10,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
+    name: "Responsive Design ",
+    projects: 5,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
+    name: "Server Side",
+    projects: 4,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "Build professional work-like projects to master React, Node JS, MongoDB, Javascript, and more to land a top career with me.",
+  "I can use process design to create digital products. Besides that also help their business",
 ];
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Freelancer",
+    tenure: "Jan 2022 - Jun 2022 ",
+    role: "Fullstack Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "A full-stack developer is a developer or engineer who can build both the front end and the back end of a website. The front end (the parts of a website a user sees and interacts with) and the back end (the behind-the-scenes data storage and processing) require different skill sets.  In short, they create the concepts",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "Technovalley Software Private Limited",
+    tenure: "Aug 2022 -  Jan 2023",
+    role: "Fullstack Developer Python (Intern)",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "A Full Stack Python Developer is a software professional who specializes in developing applications using the Python programming language. They are responsible for designing, coding, testing, and deploying software solutions.",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "Gofreelab Technologies",
+    tenure: "Jan 2023 - Present",
+    role: "Mer(A)n Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "MERN stack developer should be able to develop and maintain web applications using the MERN stack. This involves writing server-side code with Node. js and Express.",
   },
 ];
 
 export const comments = [
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Mahatma Gandhi University",
+    post: "Bsc Computer Science",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Mahatma Gandhi University, one of the major Universities in Kerala, is a premier educational institution that strives to fulfill the higher educational needs of the people of Central Kerala.",
+    img: "./mgu.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Technovalley Software India Private Limited",
+    post: "Fullstack Developer Python",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Technovalley Software India Private Ltd is an advanced technology company leveraging the potential of information technology.",
+    img: "./t.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "GoFree Technologies",
+    post: "Mer(A)n Developer",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "GoFreeLab Technologies recognised as best industry oriented project guidance center in Kochi.GoFreeLab helps you to realise your dream project/product quickly into production.",
+    img: "./go.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Expertz Lab",
+    post: "Mern Developer",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Expertzlab is an IT finishing school with a difference. We train on Gen 4.0 technologies, which is the hottest in-demand technologies. We aim to be part of the up-skill & re-skill movement within the IT fraternity today",
+    img: "./ex.png",
   },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
+  
 ];
 
 export const sliderSettings = {

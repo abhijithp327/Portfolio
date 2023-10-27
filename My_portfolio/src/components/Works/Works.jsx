@@ -10,7 +10,7 @@ const Works = () => {
       variants={staggerChildren}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: false, amount: 0.10 }}
       className={`paddings ${css.wrapper}`}>
       <a className="anchor" id="work"></a>
   

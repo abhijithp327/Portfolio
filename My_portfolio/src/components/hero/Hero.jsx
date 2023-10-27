@@ -48,7 +48,7 @@ const Hero = () => {
 
       <div className={css.lowerElements}>
         <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className={css.experience}>
-          <div className="primaryText">10</div>
+          <div className="primaryText">1+</div>
           <div className="secondaryText">
             <div>Years</div>
             <div>Experience</div>
@@ -57,8 +57,8 @@ const Hero = () => {
 
         <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
           <img src="./certificate.png" alt="" />
-          <span>CERTIFIED PROFATIONAL</span>
-          <span>UI/UX DESIGNER</span>
+          <span>CERTIFIED PROFESSIONAL</span>
+          <span>FULL STACK DEVELOPER</span>
         </motion.div>
       </div>
     </motion.div>

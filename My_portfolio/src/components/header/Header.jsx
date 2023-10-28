@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import css from "./Header.module.scss";
 import {motion} from 'framer-motion';
 import { getMenuStyles, headerVariants} from '../../utils/motion';
-import { BiPhoneCall ,BiMenuAltRight} from "react-icons/bi";
+import {BiMenuAltRight} from "react-icons/bi";
 import useHeaderShadow from '../../hooks/useHeaderShadow';
 import useOutsideAlerter from '../../hooks/useOutsideAlerter';
 

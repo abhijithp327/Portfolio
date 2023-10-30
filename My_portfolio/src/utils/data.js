@@ -43,7 +43,7 @@ export const workExp = [
       "A Full Stack Python Developer is a software professional who specializes in developing applications using the Python programming language. They are responsible for designing, coding, testing, and deploying software solutions.",
   },
   {
-    place: "Gofreelab Technologies",
+    place:"Gofreelab Technology",
     tenure: "Jan 2023 - Present",
     role: "Mer(A)n Developer",
     detail:
@@ -67,7 +67,7 @@ export const comments = [
     img: "./t.png",
   },
   {
-    name: "GoFree Technologies",
+    name: "GoFree Technologies Kochi",
     post: "Mer(A)n Developer",
     comment:
       "GoFreeLab Technologies recognised as best industry oriented project guidance center in Kochi.GoFreeLab helps you to realise your dream project/product quickly into production.",

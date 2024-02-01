@@ -36,7 +36,7 @@ const Hero = () => {
         variants={fadeIn("up", "tween", 0.3, 1)}
         className={css.person}
       >
-        <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="./abhijithp.png" alt="abh" />
+        <motion.img style={{marginBottom: "-16rem"}} variants={slideIn("up", "tween", 0.5, 1.3)} src="./abhijithedit.png" alt="abh" />
       </motion.div>
 
  
